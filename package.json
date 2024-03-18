@@ -1,27 +1,29 @@
 {
-  "name": "liff-playground",
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@line/liff": "2.23.2",
-    "@reduxjs/toolkit": "^2.2.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-redux": "^9.1.0",
-    "react-router-dom": "^6.22.3"
-  },
-  "devDependencies": {
-    "@types/react": "18.2.66",
-    "@types/react-dom": "18.2.22",
-    "@vitejs/plugin-react": "4.2.1",
-    "autoprefixer": "^10.4.18",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1",
-    "typescript": "5.4.2",
-    "vite": "5.1.6"
-  }
+	"name": "liff-playground",
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@line/liff": "2.23.2",
+		"@line/liff-inspector": "^1.0.2",
+		"@reduxjs/toolkit": "^2.2.1",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-redux": "^9.1.0",
+		"react-router-dom": "^6.22.3",
+		"vconsole": "^3.15.1"
+	},
+	"devDependencies": {
+		"@types/react": "18.2.66",
+		"@types/react-dom": "18.2.22",
+		"@vitejs/plugin-react": "4.2.1",
+		"autoprefixer": "^10.4.18",
+		"postcss": "^8.4.35",
+		"tailwindcss": "^3.4.1",
+		"typescript": "5.4.2",
+		"vite": "5.1.6"
+	}
 }
